@@ -1,7 +1,6 @@
 function downloadApp() {
     // Nome do arquivo APK
-    const fileName = 'xciptv-7-0.apk';
-    
+    const fileName = 'https://testeappweb.s3.us-east-1.amazonaws.com/xciptv-7-0.apk';    
     // Criar um link de download
     const link = document.createElement('a');
     link.href = fileName;
